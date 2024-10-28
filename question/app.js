@@ -114,3 +114,9 @@ console.log(num1 + 'を' + num2 + 'で割った余りは ' + remainder(num1, num
 //Q1 標準組み込みオブジェクト
 console.log(Math.floor(Math.random() * 11));
 
+// Q2 コールバック関数
+function showText() {
+  return console.log('Hello World!')
+} ;
+setTimeout(showText, 3000);
+
