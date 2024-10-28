@@ -46,3 +46,17 @@ console.log(playerList[1].favorites[1]);
 let averageAge = (playerList[0].age + playerList[1].age + playerList[2].age) / playerList.length;
 
 console.log(averageAge);
+
+//Q6 関数
+function sayHello() {
+  return console.log('Hello');
+};
+
+sayHello();
+
+let sayWorld = function(){
+  return console.log('World');
+};
+
+sayWorld();
+
