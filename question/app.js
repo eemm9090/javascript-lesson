@@ -97,5 +97,9 @@ function remainder(x, y) {
   return x % y;
 };
 
-console.log('5 を 3 で割った余りは ' + remainder(5, 3) + 'です。');
+const num1 = 5;
+const num2 = 3;
 
+console.log(num1 + 'を' + num2 + 'で割った余りは ' + remainder(num1, num2) + 'です。');
+
+//Q10 返り値
