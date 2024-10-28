@@ -130,3 +130,12 @@ if (num === 0) {
   console.log('num is less than 0');
 };
 
+// Q4 for
+let numbers = [];
+
+for (let i = 0; i < 100; i++) {
+  numbers[i] = i;
+};
+
+console.log(numbers);
+
