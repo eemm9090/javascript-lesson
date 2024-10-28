@@ -69,3 +69,26 @@ user.sayHello = function() {
 };
 user.sayHello();
 
+//Q8 引数
+let calc = {};
+
+calc.add = function(x, y) {
+  return console.log(x + y);
+};
+calc.add(3, 4);
+
+calc.add = function(x, y) {
+  return console.log(x - y);
+};
+calc.add(11, 1);
+
+calc.add = function(x, y) {
+  return console.log(x * y);
+};
+calc.add(7, 7);
+
+calc.add = function(x, y) {
+  return console.log(x / y);
+};
+calc.add(25, 5);
+
