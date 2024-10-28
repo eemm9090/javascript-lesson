@@ -4,10 +4,20 @@ let age = 27
 
 console.log('私ニックネームは'+nickname+'です。年齢は'+age+'です。');
 
-//Q２ 変数
+//Q２ 配列
 let languages = ['JavaScript', 'PHP', 'Ruby', 'Python', 'Go'];
 
 let templateText =`私の好きな言語は${languages[0]}です。次は${languages[3]}nを勉強してみたいです。`
 
 console.log(templateText);
+
+//Q３ オブジェクト
+let user = {
+  name: 'John',
+  age: 26,
+  bloodType: 'A',
+  favorite: 'card',
+};
+
+console.log(user.age);
 
