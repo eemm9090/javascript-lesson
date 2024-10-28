@@ -21,7 +21,7 @@ let user = {
 
 console.log(user.age);
 
-//Q３ 配列×オブジェクト
+//Q4 配列×オブジェクト
 let playerList = [
   {
     name: 'John',
@@ -42,3 +42,7 @@ let playerList = [
 
 console.log(playerList[1].favorites[1]);
 
+//Q5 四則演算
+let averageAge = (playerList[0].age + playerList[1].age + playerList[2].age) / playerList.length;
+
+console.log(averageAge);
