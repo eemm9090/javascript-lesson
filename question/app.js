@@ -103,10 +103,14 @@ const num2 = 3;
 console.log(num1 + 'を' + num2 + 'で割った余りは ' + remainder(num1, num2) + 'です。');
 
 //Q10 返り値
-function foo() {
-  let x = 1;
-}
-console.log(x);
+// function foo() {
+//   let x = 1;
+// }
+// console.log(x);
 
 //エラーの理由は、ｘが関数内だけスコープが有効になっており、関数外から参照することが出来ないためです。
+
+//応用編
+//Q1 標準組み込みオブジェクト
+console.log(Math.floor(Math.random() * 11));
 
