@@ -2,12 +2,12 @@
 let nickname = '倉ちゃん'
 let age = 27
 
-console.log('私ニックネームは'+nickname+'です。年齢は'+age+'です。');
+console.log('私ニックネームは' + nickname + 'です。年齢は' + age + 'です。');
 
 //Q２ 配列
 let languages = ['JavaScript', 'PHP', 'Ruby', 'Python', 'Go'];
 
-let templateText =`私の好きな言語は${languages[0]}です。次は${languages[3]}nを勉強してみたいです。`
+let templateText =`私の好きな言語は${languages[0]}です。次は${languages[3]}を勉強してみたいです。`
 
 console.log(templateText);
 
@@ -43,7 +43,13 @@ let playerList = [
 console.log(playerList[1].favorites[1]);
 
 //Q5 四則演算
-let averageAge = (playerList[0].age + playerList[1].age + playerList[2].age) / playerList.length;
+let sum = 0;
+
+for (let i = 0; i < playerList.length; i++) {
+  sum += playerList[i].age;
+};
+
+let averageAge = sum / playerList.length;
 
 console.log(averageAge);
 
@@ -112,7 +118,7 @@ console.log(num1 + 'を' + num2 + 'で割った余りは ' + remainder(num1, num
 
 //応用編
 //Q1 標準組み込みオブジェクト
-console.log(Math.floor(Math.random() * 11));
+console.log(Math.floor(Math.random() * 10));
 
 // Q2 コールバック関数
 function showText() {
@@ -134,8 +140,8 @@ if (num === 0) {
 let numbers = [];
 
 for (let i = 0; i < 100; i++) {
-  numbers[i] = i;
-};
+  numbers.push (i);
+  };
 
 console.log(numbers);
 
